@@ -1,7 +1,9 @@
 
 MuuTimer is a simple kitchen timer using Python and TK for GUI. It's
 behaviour can be controlled by the command line by using various
-command line options:
+command line options.
+
+USAGE
 
 $ muutimer --help
 
@@ -29,11 +31,30 @@ Options:
                         16 bit WAV file
   -d, --debug           Enable debug output
 
+By default, MuuTimer will start a timer of five minutes, with no tick
+sound and with finish sound enabled.
+
+THE IDEA
+
 The idea behind having these options on the command line is to be able
 to make shortcuts or command aliases to commonly used timer
 scenarios. Instead of making the UI overly complicated or using a
 settings file with timer presets you simple create shortcuts for
 whatever purposes you like.
+
+EXAMPLES
+
+Here are some examples to get you started.
+
+15 minutes timer with tick sound enabled:
+
+ $ muutimer -m 15 --tick
+
+Relax and take a micro typing break for half a minute:
+
+ $ muutimer -s 30 -a "Typing break"
+
+NOTES
 
 Make sure the two wav files are in the same folder as the
 program.
