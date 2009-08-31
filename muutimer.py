@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 """
-MuuTimer - Simple kitchen timer using TK for GUI
+MuuTimer - Simple kitchen timer using Python and TK
 
 Copyright (C) 2009 Mathias Dahl
 
