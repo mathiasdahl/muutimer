@@ -1,5 +1,36 @@
 #!/usr/bin/env python
 
+"""
+MuuTimer - Simple kitchen timer using TK for GUI
+
+Copyright (C) 2009 Mathias Dahl
+
+Version: 0.1
+Keywords: timer, command line
+Author: Mathias Dahl <mathias.dahl@gmail.com>
+Maintainer: Mathias Dahl
+URL: http://klibb.com/cgi-bin/wiki.pl/MuuTimer
+
+MuuTimer is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+MuuTimer is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with MuuTimer.  If not, see <http://www.gnu.org/licenses/>.
+
+Change history
+
+Date        Sign     Comment
+====        ====     =======
+2009-08-31  Mathias  Added copyright and history section.
+"""
+
 from Tkinter import *
 from optparse import OptionParser
 from threading import Timer
