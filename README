@@ -1,0 +1,44 @@
+
+MuuTimer is a simple kitchen timer using Python and TK for GUI. It's
+behaviour can be controlled by the command line by using various
+command line options:
+
+$ muutimer --help
+
+Usage: muutimer [options]
+
+When using the different time options they will all add up so that you
+can, for example, set the timer to one hour and fifteen minutes by
+using -H 1 and -m 15 at the same time.
+
+Options:
+  -h, --help            show this help message and exit
+  -s SECONDS, --seconds=SECONDS
+                        Time in seconds
+  -m MINUTES, --minutes=MINUTES
+                        Time in minutes
+  -H HOURS, --hours=HOURS
+                        Time in hours
+  -a ACTION, --action=ACTION
+                        Set the action name
+  --tick                Turn tick sound on
+  --no-finish-sound     Turn finish sound off
+  --no-start            Turn auto start off
+  --time-in-title       Display time in the window title
+  --sound=SOUND         Sound file to play when time reaches zero. Must be a
+                        16 bit WAV file
+  -d, --debug           Enable debug output
+
+The idea behind having these options on the command line is to be able
+to make shortcuts or command aliases to commonly used timer
+scenarios. Instead of making the UI overly complicated or using a
+settings file with timer presets you simple create shortcuts for
+whatever purposes you like.
+
+Make sure the two wav files are in the same folder as the
+program.
+
+MuuTimer is free software and is distributed under the GPL v3. See
+muutimer.py and/or COPYING for more details.
+
+Happy timing!
