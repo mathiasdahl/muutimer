@@ -1,7 +1,7 @@
 
-MuuTimer is a simple kitchen timer using Python and TK for GUI. It's
-behaviour can be controlled by the command line by using various
-command line options.
+MuuTimer is a simple kitchen timer written in Python and using TK for
+GUI. It's behaviour can be controlled from the command line by using
+various command line options. It runs on GNU/Linux and Windows.
 
 USAGE
 
